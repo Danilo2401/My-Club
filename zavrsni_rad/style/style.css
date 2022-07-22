@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Source+Serif+Pro:ital,wght@0,300;1,400&display=swap');
+
+body{
+    background:url("../slike/pozadina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wrapp{
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+.header_knez{
+    height: 300px;
+}
+.header_knez h1{
+    color: rgb(217, 168, 240);
+    text-align: center;
+}
+.header_knez p{
+    color: rgb(217, 168, 240);
+    text-align: center;
+}
+#central-title{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid gray;
+}
+.nav-link{
+    border: 2px white solid ;
+}
+.nav-link:hover{
+    background-color: purple;
+}
+
+#mainImg img{
+    width:300px;
+    height: 150px;
+    border: 5px solid gray;
+    margin-left: 20px;
+}
+#mainImg:hover{
+    opacity: 0.8;
+}
+#central-text{
+    margin-top: 60px ;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main-text{
+    flex-basis: 700px;
+    margin-left: 40px;
+}
+#mainImg2 img{
+    width: 300px;
+    height: 150px;
+    border: 5px solid gray;
+}
+#mainImg2:hover{
+    opacity: 0.8;
+}
+#central-text2{
+    margin-top: 60px ;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main-text2{
+    flex-basis: 600px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.title{
+    text-align: center;
+}
+#footer{
+    background:linear-gradient(rgb(226, 16, 226),rgb(141, 40, 236));
+    margin-top: 20px;
+} 
+#footer-text{
+    text-align: center;
+}
+#footer-social-media{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.insta{
+    margin-left: 5px;
+}
+.fac {
+    margin-left: 5px;
+}
+.you{
+    margin-left: 5px;
+}
+.insta a{
+    margin-left: 5px;
+    color: rgb(233, 233, 10);
+}
+.fac a{
+    margin-left: 5px;
+    color: rgb(24, 24, 231);
+}
+.you a{
+    margin-left: 5px;
+    color: rgb(223, 19, 19);
+}
+#footer-social-media a:hover{
+    color: purple;
+}
+#animator {
+    width: 100%;
+    padding: 10px;
+}
+.odgovor{
+    background-color: rgb(247, 239, 239);
+    padding: 30px;
+    display: none;
+    border: 2px solid gray;
+}
